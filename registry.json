@@ -1,0 +1,26 @@
+[
+    {
+        "id": "JP-2023-X",
+        "title": "Acoustic Pest Repellent",
+        "subject": "high-frequency sound emitter",
+        "action": "disturbing nervous systems of insects",
+        "boundary": "agricultural grain storage",
+        "text": "A device for farmers that uses ultrasonic waves to keep bugs away from stored rice."
+    },
+    {
+        "id": "DE-4412-B",
+        "title": "Thermal Polymer Joiner",
+        "subject": "focused heat induction tool",
+        "action": "melting plastic edges to create a seal",
+        "boundary": "industrial pipe manufacturing",
+        "text": "An industrial machine that uses heat to weld PVC pipes together for plumbing."
+    },
+    {
+        "id": "US-9901-Z",
+        "title": "Solar Kinetic Watch",
+        "subject": "photovoltaic energy harvester",
+        "action": "converting light into mechanical movement",
+        "boundary": "personal wearable accessories",
+        "text": "A wrist-watch that never needs a battery because it runs on sunlight."
+    }
+]

@@ -1,0 +1,4 @@
+# tracking what installed
+streamlit
+sentence-transformers
+pandas
