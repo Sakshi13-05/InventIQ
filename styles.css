@@ -1,0 +1,566 @@
+/* =====================================================
+   GLOBAL
+===================================================== */
+
+.stApp {
+    background: #f4f8ff;
+}
+
+.main .block-container {
+    max-width: 1380px;
+    padding: 2.8rem 4rem 4rem 4rem;
+}
+
+header {
+    visibility: hidden;
+}
+
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+
+/* =====================================================
+   SIDEBAR
+===================================================== */
+
+section[data-testid="stSidebar"] {
+    background: #ffffff;
+    border-right: 1px solid #dbe5f2;
+}
+
+section[data-testid="stSidebar"] .block-container {
+    padding: 2.5rem 1.7rem;
+}
+
+.brand-title {
+    color: #172554;
+    font-size: 1.55rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.brand-subtitle {
+    color: #718096;
+    font-size: 0.82rem;
+    margin-top: 0.2rem;
+}
+
+.sidebar-line {
+    height: 1px;
+    background: #e2e8f0;
+    margin: 2rem 0;
+}
+
+.sidebar-label {
+    color: #64748b;
+    font-size: 0.67rem;
+    font-weight: 800;
+    letter-spacing: 0.09em;
+    margin-top: 1.5rem;
+    margin-bottom: 0.65rem;
+}
+
+.status-box {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    background: #e9f9f0;
+    border: 1px solid #ccefdc;
+    border-radius: 10px;
+    padding: 0.85rem 0.9rem;
+    color: #07834a;
+    font-size: 0.82rem;
+    font-weight: 650;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #12b76a;
+}
+
+.method-box {
+    background: #e9f2ff;
+    border: 1px solid #d1e3ff;
+    border-radius: 10px;
+    padding: 0.9rem;
+}
+
+.method-title {
+    color: #155eef;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.method-text {
+    color: #52709d;
+    font-size: 0.75rem;
+    margin-top: 0.3rem;
+}
+
+.sidebar-step {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #475569;
+    font-size: 0.8rem;
+    margin: 0.65rem 0;
+}
+
+.step-circle {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #eef3f8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #475569;
+    font-size: 0.68rem;
+    font-weight: 700;
+}
+
+.sidebar-bottom {
+    height: 5rem;
+}
+
+.sidebar-note {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 9px;
+    padding: 0.8rem;
+    color: #718096;
+    font-size: 0.68rem;
+    line-height: 1.5;
+}
+
+
+/* =====================================================
+   HERO
+===================================================== */
+
+.hero {
+    margin-bottom: 2.7rem;
+}
+
+.hero-title {
+    color: #172554;
+    font-size: 3rem;
+    font-weight: 800;
+    letter-spacing: -0.045em;
+}
+
+.hero-subtitle {
+    color: #303b55;
+    font-size: 1.35rem;
+    font-weight: 650;
+    margin-top: 0.25rem;
+}
+
+.hero-description {
+    color: #7b8799;
+    font-size: 0.88rem;
+    margin-top: 0.65rem;
+}
+
+
+/* =====================================================
+   SECTIONS
+===================================================== */
+
+.section-title {
+    color: #202a40;
+    font-size: 1.35rem;
+    font-weight: 750;
+    margin-top: 1rem;
+}
+
+.step-tag {
+    display: inline-block;
+    color: #2563eb;
+    background: #e9f2ff;
+    border: 1px solid #d4e5ff;
+    border-radius: 6px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.55rem;
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    vertical-align: middle;
+}
+
+.section-description {
+    color: #7b8799;
+    font-size: 0.82rem;
+    margin: 0.4rem 0 1rem 0;
+}
+
+.section-divider {
+    height: 1px;
+    background: #dce5f0;
+    margin: 2.4rem 0;
+}
+
+
+/* =====================================================
+   TEXT AREA
+===================================================== */
+
+textarea {
+    background: #ffffff !important;
+    border: 1px solid #cbd8e8 !important;
+    border-radius: 10px !important;
+    color: #334155 !important;
+    font-size: 0.88rem !important;
+}
+
+textarea:focus {
+    border-color: #377dff !important;
+    box-shadow: 0 0 0 1px #377dff !important;
+}
+
+
+/* =====================================================
+   BUTTON
+===================================================== */
+
+div.stButton > button {
+    background: #286ef0;
+    border: 1px solid #286ef0;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.82rem;
+    font-weight: 700;
+    padding: 0.55rem 1.1rem;
+}
+
+div.stButton > button:hover {
+    background: #1f5fd4;
+    border-color: #1f5fd4;
+    color: white;
+}
+
+
+/* =====================================================
+   DNA CARDS
+===================================================== */
+
+.dna-card {
+    background: #eaf3ff;
+    border: 1px solid #d4e6ff;
+    border-radius: 11px;
+    padding: 1.05rem 1rem;
+    min-height: 105px;
+}
+
+.dna-label {
+    color: #2367d1;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.65rem;
+}
+
+.dna-value {
+    color: #245080;
+    font-size: 0.84rem;
+    line-height: 1.45;
+}
+
+
+/* =====================================================
+   TOP MATCH
+===================================================== */
+
+.top-match-heading {
+    color: #202a40;
+    font-size: 1.35rem;
+    font-weight: 750;
+    margin: 1.2rem 0 0.8rem 0;
+}
+
+.match-card {
+    background: #ffffff;
+    border: 1px solid #dbe5f0;
+    border-radius: 12px;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 12px rgba(35, 74, 120, 0.04);
+}
+
+.match-status {
+    font-size: 0.66rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    margin-bottom: 0.35rem;
+}
+
+.match-status.high {
+    color: #c62828;
+}
+
+.match-status.medium {
+    color: #a46a00;
+}
+
+.match-status.low {
+    color: #087b48;
+}
+
+.match-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.match-id {
+    color: #1c2c4a;
+    font-size: 0.98rem;
+    font-weight: 750;
+}
+
+.match-title {
+    color: #718096;
+    font-size: 0.8rem;
+    margin-top: 0.15rem;
+}
+
+.match-score {
+    background: #edf4ff;
+    color: #2367d1;
+    border: 1px solid #d4e5ff;
+    border-radius: 8px;
+    padding: 0.45rem 0.7rem;
+    font-size: 0.82rem;
+    font-weight: 800;
+}
+
+
+/* =====================================================
+   RESULT HEADINGS
+===================================================== */
+
+.result-heading {
+    color: #27334c;
+    font-size: 1.08rem;
+    font-weight: 750;
+    margin-bottom: 0.8rem;
+}
+
+.comparison-heading {
+    margin-top: 1.6rem;
+}
+
+
+/* =====================================================
+   METRICS
+===================================================== */
+
+.metric-card {
+    background: #ffffff;
+    border: 1px solid #dce5ef;
+    border-radius: 10px;
+    padding: 0.85rem 0.9rem;
+}
+
+.metric-label {
+    color: #718096;
+    font-size: 0.65rem;
+    font-weight: 750;
+    letter-spacing: 0.07em;
+}
+
+.metric-number {
+    color: #1d3557;
+    font-size: 1.45rem;
+    font-weight: 800;
+    margin-top: 0.15rem;
+}
+
+
+/* =====================================================
+   COMPARISON
+===================================================== */
+
+.comparison-card {
+    background: #ffffff;
+    border: 1px solid #dce5ef;
+    border-radius: 11px;
+    padding: 1rem;
+    min-height: 250px;
+}
+
+.existing-card {
+    background: #f9fbfd;
+}
+
+.comparison-title {
+    color: #2563eb;
+    font-size: 0.88rem;
+    font-weight: 750;
+    margin-bottom: 1rem;
+}
+
+.comparison-title.existing {
+    color: #40536d;
+}
+
+.comparison-label {
+    color: #7b8799;
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 0.65rem;
+    margin-bottom: 0.2rem;
+}
+
+.comparison-text {
+    color: #35445b;
+    font-size: 0.79rem;
+    line-height: 1.45;
+}
+
+
+/* =====================================================
+   EXPLANATION
+===================================================== */
+
+.explanation-card {
+    background: #eaf3ff;
+    border: 1px solid #d4e6ff;
+    border-radius: 11px;
+    padding: 1rem;
+    min-height: 250px;
+}
+
+.explanation-title {
+    color: #235cae;
+    font-size: 0.85rem;
+    font-weight: 750;
+    margin-bottom: 0.65rem;
+}
+
+.explanation-text {
+    color: #3e5d83;
+    font-size: 0.8rem;
+    line-height: 1.55;
+}
+
+.explanation-line {
+    height: 1px;
+    background: #cbdff8;
+    margin: 1.2rem 0 0.8rem 0;
+}
+
+.overall-label {
+    color: #6681a5;
+    font-size: 0.68rem;
+}
+
+.overall-score {
+    color: #1d4ed8;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 0.1rem;
+}
+
+
+/* =====================================================
+   PROGRESS
+===================================================== */
+
+div[data-testid="stProgress"] {
+    margin-top: 0.9rem;
+}
+
+div[data-testid="stProgress"] > div {
+    border-radius: 10px;
+}
+
+
+/* =====================================================
+   DISCLAIMER
+===================================================== */
+
+.disclaimer {
+    color: #8a96a8;
+    font-size: 0.68rem;
+    line-height: 1.5;
+    margin-top: 1rem;
+}
+
+
+/* =====================================================
+   OTHER RESULTS
+===================================================== */
+
+.other-heading {
+    color: #27334c;
+    font-size: 1.05rem;
+    font-weight: 750;
+    margin-top: 1.7rem;
+    margin-bottom: 0.7rem;
+}
+
+.other-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #dce5ef;
+    border-radius: 9px;
+    padding: 0.7rem 0.85rem;
+    margin-bottom: 0.45rem;
+}
+
+.other-rank {
+    color: #94a3b8;
+    font-size: 0.72rem;
+    margin-right: 0.45rem;
+}
+
+.other-id {
+    color: #273b59;
+    font-size: 0.78rem;
+    font-weight: 750;
+}
+
+.other-title {
+    color: #7b8799;
+    font-size: 0.75rem;
+    margin-left: 0.35rem;
+}
+
+.other-score {
+    color: #2563eb;
+    font-size: 0.78rem;
+    font-weight: 750;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .main .block-container {
+        padding: 1.5rem;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.05rem;
+    }
+
+}
